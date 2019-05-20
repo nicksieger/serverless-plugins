@@ -50,6 +50,7 @@ custom:
   serverless-offline-sqs:
     endpoint: http://0.0.0.0:9324
     region: ${self:provider.region}
+    accountId: 900112233445
     accessKeyId: root
     secretAccessKey: root
     skipCacheInvalidation: false
